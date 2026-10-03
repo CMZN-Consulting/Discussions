@@ -1,0 +1,32 @@
+labels: ["new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about our public work. We read the forum weekly, but we cannot promise to answer every question. When a reply answers yours, please mark it as the answer.
+
+        Before you post, please search: your question may already have an answer.
+  - type: dropdown
+    id: mark
+    attributes:
+      label: Mark your post
+      description: Is anything in your post contested, uncertain or unsettling? Say so here, before anyone reads it, and pick every mark that applies. No post is removed because of its mark. A mark you leave out may be added by a moderator and recorded in the public moderation log.
+      multiple: true
+      options:
+        - "Plain: none of the three"
+        - "Contested: some will dispute it"
+        - "Uncertain: I am not sure it holds"
+        - "Unsettling: it may disturb a reader"
+    validations:
+      required: true
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: read
+    attributes:
+      label: What you have read or tried
+      description: Optional. Links help us answer you.

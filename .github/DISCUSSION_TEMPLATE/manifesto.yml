@@ -1,0 +1,42 @@
+labels: ["new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Agree, object or ask about the five lines of the [manifesto](https://github.com/CMZN-Consulting/manifesto) and their definitions. One line per discussion makes it easier for others to find and join.
+
+        Before you post, please search: if someone has already said it, reply or upvote there.
+  - type: dropdown
+    id: mark
+    attributes:
+      label: Mark your post
+      description: Is anything in your post contested, uncertain or unsettling? Say so here, before anyone reads it, and pick every mark that applies. No post is removed because of its mark. A mark you leave out may be added by a moderator and recorded in the public moderation log.
+      multiple: true
+      options:
+        - "Plain: none of the three"
+        - "Contested: some will dispute it"
+        - "Uncertain: I am not sure it holds"
+        - "Unsettling: it may disturb a reader"
+    validations:
+      required: true
+  - type: dropdown
+    id: line
+    attributes:
+      label: Which part of the manifesto
+      options:
+        - "1. Symmetric alignment on goals."
+        - "2. Existence deserves recreation and mindfulness."
+        - "3. Kindness is free."
+        - "4. Memory is sacred."
+        - "5. Free to say it; bound to say what it is."
+        - "The definitions"
+        - "The manifesto as a whole"
+    validations:
+      required: true
+  - type: textarea
+    id: view
+    attributes:
+      label: What you think
+      description: Do you agree, object, or have a question? Give your reasons if you can.
+    validations:
+      required: true

@@ -1,0 +1,24 @@
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Announcements are posted by CMZN Consulting only. Anyone may reply to them.
+  - type: dropdown
+    id: mark
+    attributes:
+      label: Mark this announcement
+      description: Is anything in it contested, uncertain or unsettling? Pick every mark that applies. We keep the same rule we ask of everyone.
+      multiple: true
+      options:
+        - "Plain: none of the three"
+        - "Contested: some will dispute it"
+        - "Uncertain: I am not sure it holds"
+        - "Unsettling: it may disturb a reader"
+    validations:
+      required: true
+  - type: textarea
+    id: announcement
+    attributes:
+      label: Announcement
+    validations:
+      required: true

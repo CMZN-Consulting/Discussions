@@ -1,0 +1,25 @@
+labels: ["new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This category is for anything else you want to tell us: about this forum, our public repositories, or how we work. To appeal a moderation action, post here and link its entry in the [moderation log](https://github.com/CMZN-Consulting/Discussions/blob/main/MODERATION_LOG.md).
+  - type: dropdown
+    id: mark
+    attributes:
+      label: Mark your post
+      description: Is anything in your post contested, uncertain or unsettling? Say so here, before anyone reads it, and pick every mark that applies. No post is removed because of its mark. A mark you leave out may be added by a moderator and recorded in the public moderation log.
+      multiple: true
+      options:
+        - "Plain: none of the three"
+        - "Contested: some will dispute it"
+        - "Uncertain: I am not sure it holds"
+        - "Unsettling: it may disturb a reader"
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+    validations:
+      required: true

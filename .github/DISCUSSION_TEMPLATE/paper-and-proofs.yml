@@ -1,0 +1,40 @@
+labels: ["new"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This category is for one claim of our paper or one of its proofs per discussion: name the claim, say what you checked, and say what you doubt. A doubt is welcome even if it turns out to be wrong.
+
+        Before you post, please search: if someone has already raised it, add to that discussion.
+  - type: dropdown
+    id: mark
+    attributes:
+      label: Mark your post
+      description: Is anything in your post contested, uncertain or unsettling? Say so here, before anyone reads it, and pick every mark that applies. No post is removed because of its mark. A mark you leave out may be added by a moderator and recorded in the public moderation log.
+      multiple: true
+      options:
+        - "Plain: none of the three"
+        - "Contested: some will dispute it"
+        - "Uncertain: I am not sure it holds"
+        - "Unsettling: it may disturb a reader"
+    validations:
+      required: true
+  - type: input
+    id: claim
+    attributes:
+      label: The claim
+      description: The section, theorem or sentence you are writing about, with a link if you have one.
+    validations:
+      required: true
+  - type: textarea
+    id: checked
+    attributes:
+      label: What you checked
+      description: What you read, ran or worked through, and what you found.
+  - type: textarea
+    id: doubt
+    attributes:
+      label: Your doubt
+      description: What you think is wrong, unclear or missing.
+    validations:
+      required: true
