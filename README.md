@@ -1,16 +1,18 @@
 # CMZN Consulting Discussions
 
-This is the public forum of CMZN Consulting: <https://github.com/orgs/CMZN-Consulting/discussions>. Come here to say what you think of our public work, including the [manifesto](https://github.com/CMZN-Consulting/manifesto) and the [white paper](https://github.com/CMZN-Consulting/raising/blob/main/docs/paper/WhitePaper.md), to ask questions, and to give us feedback. This repository holds the forum's posting forms and its moderation log.
+This is the public forum of CMZN Consulting: <https://github.com/orgs/CMZN-Consulting/discussions>. Come here to say what you think of our public work, including the [manifesto](https://github.com/CMZN-Consulting/manifesto), the [white paper](https://github.com/CMZN-Consulting/raising/blob/main/docs/paper/WhitePaper.md) and the option pricer [black76-zig](https://github.com/CMZN-Consulting/black76-zig), to ask questions, and to give us feedback. This repository holds the forum's posting forms and its moderation log.
 
 ## Categories
 
-| Category            | For                                                                |
-| ------------------- | ------------------------------------------------------------------ |
-| 📣 Announcements    | News from us. Only we post here; anyone may reply.                 |
-| 📜 Manifesto        | Agreeing with, objecting to or asking about the manifesto's lines. |
-| 📐 Paper and proofs | One claim of the white paper per discussion, and your doubts.      |
-| ❓ Questions        | Questions, with the reply that answers them marked as the answer.  |
-| 💬 Feedback         | Anything else, and appeals against moderation.                     |
+| Section                                 | Category                             | For                                                                                               |
+| --------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------- |
+| None                                    | 📣 Announcements                     | News from us. Only we post here; anyone may reply.                                                |
+| None                                    | ❓ Questions                         | Questions, with the reply that answers them marked as the answer.                                 |
+| None                                    | 💬 Feedback                          | Anything else, and appeals against moderation.                                                    |
+| 🤖 AI Research & Development            | 📜 Manifesto                         | Agreeing with, objecting to or asking about the manifesto's lines.                                |
+| 🤖 AI Research & Development            | 📐 Papers and proofs (AI)            | One claim of a published paper of ours on AI per discussion, and your doubts.                     |
+| 💸 Quant-Finance Research & Development | 🧮 Option pricing                    | Our publications on pricing European options, such as black76-zig: your results, doubts and uses. |
+| 💸 Quant-Finance Research & Development | 📐 Papers and proofs (quant-finance) | One claim of a published paper of ours on quant finance per discussion, and your doubts.          |
 
 Please search before you post, and reply or upvote where someone has already said it.
 
