@@ -3,7 +3,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        This category is for one claim of our paper or one of its proofs per discussion: name the claim, say what you checked, and say what you doubt. A doubt is welcome even if it turns out to be wrong.
+        This category is for one claim of our [white paper](https://github.com/CMZN-Consulting/raising/blob/main/docs/paper/WhitePaper.md) per discussion: name the claim, say what you checked, and say what you doubt. A doubt is welcome even if it turns out to be wrong. The paper's formal companion and its proofs are not public yet.
 
         Before you post, please search: if someone has already raised it, add to that discussion.
   - type: dropdown
