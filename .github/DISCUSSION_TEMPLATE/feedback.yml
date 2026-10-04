@@ -4,6 +4,8 @@ body:
     attributes:
       value: |
         This category is for anything else you want to tell us: about this forum, our public repositories, or how we work. To appeal a moderation action, post here and link its entry in the [moderation log](https://github.com/CMZN-Consulting/Discussions/blob/main/MODERATION_LOG.md).
+
+        Before you post, please search: if someone has already said it, reply or upvote there.
   - type: dropdown
     id: mark
     attributes:

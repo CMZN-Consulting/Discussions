@@ -4,15 +4,15 @@ This is the public forum of CMZN Consulting: <https://github.com/orgs/CMZN-Consu
 
 ## Categories
 
-| Section                                 | Category                             | For                                                                                               |
-| --------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------- |
-| None                                    | 📣 Announcements                     | News from us. Only we post here; anyone may reply.                                                |
-| None                                    | ❓ Questions                         | Questions, with the reply that answers them marked as the answer.                                 |
-| None                                    | 💬 Feedback                          | Anything else, and appeals against moderation.                                                    |
-| 🤖 AI Research & Development            | 📜 Manifesto                         | Agreeing with, objecting to or asking about the manifesto's lines.                                |
-| 🤖 AI Research & Development            | 📐 Papers and proofs (AI)            | One claim of a published paper of ours on AI per discussion, and your doubts.                     |
-| 💸 Quant-Finance Research & Development | 🧮 Option pricing                    | Our publications on pricing European options, such as black76-zig: your results, doubts and uses. |
-| 💸 Quant-Finance Research & Development | 📐 Papers and proofs (quant-finance) | One claim of a published paper of ours on quant finance per discussion, and your doubts.          |
+| Section                                 | Category                             | For                                                                                                      |
+| --------------------------------------- | ------------------------------------ | -------------------------------------------------------------------------------------------------------- |
+| None                                    | 📣 Announcements                     | News from us. Only we post here; anyone may reply.                                                       |
+| None                                    | ❓ Questions                         | Questions, with the reply that answers them marked as the answer.                                        |
+| None                                    | 💬 Feedback                          | Anything else, and appeals against moderation.                                                           |
+| 🤖 AI Research & Development            | 📜 Manifesto                         | Agreeing with, objecting to or asking about the manifesto.                                               |
+| 🤖 AI Research & Development            | 📐 Papers and proofs (AI)            | One claim of a published white or yellow paper of ours on AI per discussion, and your doubts.            |
+| 💸 Quant-Finance Research & Development | 🧮 Option pricing                    | Our publications on pricing European options, such as black76-zig: your results, doubts and uses.        |
+| 💸 Quant-Finance Research & Development | 📐 Papers and proofs (quant-finance) | One claim of a published white or yellow paper of ours on quant finance per discussion, and your doubts. |
 
 Please search before you post, and reply or upvote where someone has already said it.
 
@@ -20,12 +20,12 @@ Please search before you post, and reply or upvote where someone has already sai
 
 The manifesto's fifth line is the rule here: you are free to say it, and bound to say what it is, so each post says, before anyone reads it, whether it is contested, uncertain or unsettling.
 
-The posting form asks for the mark, and no post is removed because of its mark.
+Each category's posting form asks for the mark, and no post is removed because of its mark.
 
 ## Moderation
 
 - A mark the speaker left out may be added by a moderator, with a `flag:` label and a reply. Nothing is removed for that.
-- Spam and attacks on readers' software are hidden. A hidden post stays readable by anyone who expands it.
+- A reply that is spam or an attack on readers' software is hidden, and anyone can still expand it. GitHub cannot hide the opening post of a discussion, so such a post is locked and its text replaced with a moderator's note; the original stays in the post's edit history, which anyone can open.
 - A moderator may lock a discussion, limit who may post, or block an account, each for a stated time where possible.
 - We delete a post only where GitHub or the law requires it.
 - Every moderation action is recorded, by the person who took it, in the public [moderation log](MODERATION_LOG.md). Each entry can be appealed in 💬 Feedback.
